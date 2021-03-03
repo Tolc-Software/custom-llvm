@@ -18,5 +18,5 @@ This is a repository to hold custom built LLVM bundles.
 $ cd .\out\install\
 # NOTE: Switch out the version (here 11.0.0)
 #       This takes a long time
-$ cmake -E tar -cJ clang+llvm-11.0.0-x86_64-windows.tar.xz x64-Clang-Release
+$ cmake -E tar -cz clang+llvm-11.0.0-x86_64-windows.tar.gz x64-Clang-Release
 ```
