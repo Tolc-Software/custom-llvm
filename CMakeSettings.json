@@ -1,4 +1,4 @@
-﻿{
+{
   "configurations": [
     {
       "name": "x64-Clang-Release",
@@ -6,7 +6,7 @@
       "configurationType": "Release",
       "buildRoot": "${projectDir}\\out\\build\\${name}",
       "installRoot": "${projectDir}\\out\\install\\${name}",
-      "cmakeCommandArgs": "-DLLVM_ENABLE_PROJECTS=clang",
+      "cmakeCommandArgs": "-DLLVM_ENABLE_PROJECTS=clang -DCMAKE_MSVC_RUNTIME_LIBRARY=MultiThreaded",
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
       "inheritEnvironments": [ "clang_cl_x64_x64" ],
