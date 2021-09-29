@@ -6,9 +6,13 @@ This is a repository to hold custom built LLVM bundles.
 
 * Download the desired version of LLVM.
 
-* Place the file `CMakeSettings.json` that is in this repository within the directory called `llvm` within the downloaded LLVM.
+```
+$ git clone --config core.autocrlf=false git@github.com:llvm/llvm-project.git
+```
 
-* Open the directory `llvm` with Visual Studio and let it configure with the `CMakeSettings.json`.
+* Copy the file `CMakeSettings.json` from this repository and place it into `llvm-project/llvm`
+
+* Open the directory `llvm-project/llvm` with Visual Studio and let it configure with the `CMakeSettings.json`.
 
 * Build and install using the `x64-Clang-{Debug,Release}` configuration.
 
