@@ -4,10 +4,13 @@ This is a repository to hold custom built LLVM bundles.
 
 ## Windows ##
 
-* Download the desired version of LLVM.
+* Download LLVM and checkout the desired version
 
 ```
 $ git clone --config core.autocrlf=false git@github.com:llvm/llvm-project.git
+$ cd llvm-project
+# For example
+$ git checkout llvmorg-12.0.0
 ```
 
 * Copy the file `CMakeSettings.json` from this repository and place it into `llvm-project/llvm`
