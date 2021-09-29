@@ -6,7 +6,7 @@ This is a repository to hold custom built LLVM bundles.
 
 * Download LLVM and checkout the desired version
 
-```
+```sh
 $ git clone --config core.autocrlf=false git@github.com:llvm/llvm-project.git
 $ cd llvm-project
 # For example
