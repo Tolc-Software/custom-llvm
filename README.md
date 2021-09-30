@@ -25,5 +25,5 @@ $ git checkout llvmorg-12.0.0
 $ cd .\out\install\
 # NOTE: Switch out the version (here 11.0.0) and build type (here Release)
 #       This takes a long time (especially for the larger Debug build)
-$ cmake -E tar -cJ clang+llvm-11.0.0-x86_64-windows.tar.xz x64-Clang-Release
+$ cmake -E tar -cJ clang+llvm-11.0.0-x86_64-windows-Release.tar.gz x64-Clang-Release
 ```
